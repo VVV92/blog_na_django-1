@@ -145,6 +145,8 @@ EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 
 LOGIN_REDIRECT_URL = "/"
-
+LOGIN_URL = '/accounts/login/'
+MEDIA_ROOT = BASE_DIR/'media'
+MEDIA_URL = '/media/'
 
 SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
